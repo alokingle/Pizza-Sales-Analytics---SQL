@@ -1,105 +1,46 @@
 
 # 🍕 **Pizza Sales Analytics Using PostgreSQL**  
 ### *End‑to‑End SQL Portfolio Project*
-
+![images/pizza_sales.png](https://github.com/alokingle/Pizza-Sales-Analytics---SQL/blob/main/Pizza_sales_analysis.png)
 ---
 
-## 📌 **Project Overview**
-This project analyzes a multi‑table pizza sales dataset using PostgreSQL.  
-It covers the full workflow: **database design, data import, cleaning, exploration, and advanced SQL analytics**.  
-The goal is to extract meaningful business insights such as revenue trends, top‑selling pizzas, category performance, and customer ordering patterns.
+# 🍕 SQL for Data Analysis – Pizza Sales Portfolio Project
+
+## 📌 Project Overview
+This project showcases how to **transform raw sales data into actionable business insights using SQL**.  
+It highlights database design, data cleaning, and advanced query techniques to get buisness insights.
+
+## 🎯 Objectives
+- Convert raw CSV sales data into a structured relational database.
+- Apply SQL queries to answer real business questions.
+- Demonstrate technical proficiency and analytical storytelling.
+
+## 🛠️ Tech Stack
+- **Database:** PostgreSQL  
+- **Languages:** SQL  
+- **Techniques:** Joins, Aggregations, Window Functions, Subqueries  
+
+## ⭐ STAR Method Breakdown
+- **Situation:** Pizza chain needed insights into sales performance hidden in raw CSV datasets.  
+- **Task:** Build a relational database, clean/import data, and design SQL queries for analysis.  
+- **Analysis:** Applied joins, aggregations, window functions, and subqueries to uncover order trends, category sales, daily averages, and revenue contribution.  
+- **Result:** Delivered clear insights on top‑selling pizzas, revenue drivers, and customer ordering patterns—demonstrating SQL proficiency and end‑to‑end analytics capability.  
+
+## 📊 Key Insights
+- Top 5 most‑ordered pizzas by quantity.  
+- Highest revenue‑generating pizzas and their contribution percentage.  
+- Daily average orders and category‑wise sales trends.  
+
+## 🚀 Impact
+This project highlights:
+- Strong SQL query writing and optimization skills.  
+- Ability to design normalized schemas and troubleshoot imports.  
+- Business intelligence mindset—turning raw data into actionable insights.  
+
+## 📂 Repository Contents
+- `pizza_sales.sql` → Database schema creation.  
+- `pizza_sales.sql` → Analytical SQL queries.  
+- `README.md` → Project documentation (this file).  
 
 ---
-
-## ⭐ **Project Objectives**
-- Build a complete SQL analytics project from scratch  
-- Design a normalized relational database schema  
-- Import and validate raw CSV files  
-- Perform exploratory, intermediate, and advanced SQL analysis  
-- Generate actionable insights for business decision‑making  
-
----
-
-## ⭐ **Dataset Structure**
-The project uses four relational tables:
-
-| Table | Description |
-|-------|-------------|
-| **pizzas** | Pizza ID, type, size, price |
-| **pizza_types** | Pizza type name, category, ingredients |
-| **orders** | Order ID, date, time |
-| **order_details** | Order details, pizza ID, quantity |
-
----
-
-## 🛠️ **Tech Stack**
-- **PostgreSQL**
-- **pgAdmin**
-- **SQL (CTEs, Window Functions, Joins, Aggregations)**
-
----
-
-## ⭐ **What I Did (STAR Method)**
-
-### **📌 Situation**
-The raw pizza sales dataset consisted of multiple CSV files with no defined schema.  
-To analyze sales performance and revenue trends, the data needed to be structured, cleaned, and queried effectively.
-
-### **📌 Task**
-Design a relational database, load all data, and write SQL queries (basic → advanced) to uncover insights such as top‑selling pizzas, category performance, cumulative revenue, and ordering patterns.
-
-### **📌 Action**
-- Created four normalized PostgreSQL tables with proper **primary keys, foreign keys, and constraints**.  
-- Imported all CSV files into PostgreSQL using pgAdmin, resolving encoding and formatting issues.  
-- Wrote **15+ SQL queries** covering:
-  - Basic SQL (SELECT, DISTINCT, LIKE, BETWEEN)  
-  - Intermediate SQL (JOINs, GROUP BY, ORDER BY, aggregations)  
-  - Advanced SQL (CTEs, CASE statements, RANK, DENSE_RANK, ROW_NUMBER, cumulative revenue)  
-- Performed analysis on:
-  - Total orders & daily trends  
-  - Revenue and top‑selling pizzas  
-  - Category‑wise performance  
-  - Hourly ordering patterns  
-  - Cumulative revenue over time  
-  - Percentage contribution of each pizza type  
-  - Top 3 pizzas per category using window functions  
-
-### **📌 Result**
-- Delivered a complete, production‑ready SQL analytics project.  
-- Identified key insights such as:
-  - Best‑selling pizzas  
-  - Peak ordering hours  
-  - Highest revenue categories  
-  - Revenue growth trends  
-- Strengthened my analytics portfolio with a real‑world SQL project demonstrating strong skills in **data modeling, analytical SQL, and business insight generation**.
-
----
-
-## 📊 **Key SQL Concepts Used**
-- **INNER JOIN, LEFT JOIN**
-- **GROUP BY, ORDER BY**
-- **Aggregations (SUM, COUNT, AVG, MAX)**
-- **Window Functions (RANK, DENSE_RANK, ROW_NUMBER)**
-- **CTEs (Common Table Expressions)**
-- **CASE statements**
-- **Date & Time functions**
-
----
-
-## 📁 **Project Files**
-- `pizza_sales.sql` – Schema creation  
-- `pizza_sales.sql` – All SQL queries (basic → advanced)  
-- `pizzas.csv`, `pizza_types.csv`, `orders.csv`, `order_details.csv`  
-
----
-
-## 🚀 **How to Run This Project**
-1. Create a PostgreSQL database  
-2. Run the table creation script  
-3. Import CSV files using pgAdmin  
-4. Execute analysis queries  
-
----
-
-## 📬 **Connect With Me**
-If you’d like to discuss SQL, analytics, or data projects, feel free to reach out!
+💡 *This project is part of my data analytics portfolio, showcasing practical SQL skills for real‑world business analysis.*
