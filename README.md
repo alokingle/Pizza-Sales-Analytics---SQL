@@ -1,11 +1,8 @@
 
 # 🍕 **Pizza Sales Analytics Using PostgreSQL**  
-### *End‑to‑End SQL Portfolio Project*
+### *Sales Analysis Project using SQL*
 ![images/pizza_sales.png](https://github.com/alokingle/Pizza-Sales-Analytics---SQL/blob/main/Pizza_sales_analysis.png)
 ---
-
-# 🍕 SQL for Data Analysis – Pizza Sales Portfolio Project
-
 ## 📌 Project Overview
 This project showcases how to **transform raw sales data into actionable business insights using SQL**.  
 It highlights database design, data cleaning, and advanced query techniques to get buisness insights.
